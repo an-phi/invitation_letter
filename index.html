@@ -241,20 +241,20 @@
                             <i class="fa-solid fa-map-location-dot me-2"></i>Địa điểm Google Maps
                         </a>
                         <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem;">
-                            463 P. Đội Cấn, Vĩnh Phú, Ba Đình, Hà Nội
+                            463 P. Đội Cấn, Vĩnh Phúc, Ba Đình, Hà Nội
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Galeri Foto -->
+        <!-- Thư viện ảnh -->
         <section class="dark-section" id="galeri">
 
             <div class="container pb-2 pt-4">
                 <div class="card-body border rounded-4 shadow p-3">
 
-                    <h1 class="font-esthetic text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem;">Galeri</h1>
+                    <h1 class="font-esthetic text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem;">Những khoảnh khắc kỉ niệm</h1>
 
                     <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -277,12 +277,12 @@
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-foto-satu" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <span class="visually-hidden">Trang trước</span>
                         </button>
 
                         <button class="carousel-control-next" type="button" data-bs-target="#carousel-foto-satu" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <span class="visually-hidden">Trang kế tiếp</span>
                         </button>
                     </div>
 
@@ -307,12 +307,12 @@
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-foto-dua" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <span class="visually-hidden">Trang trước</span>
                         </button>
 
                         <button class="carousel-control-next" type="button" data-bs-target="#carousel-foto-dua" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <span class="visually-hidden">Trang kế tiếp</span>
                         </button>
                     </div>
                 </div>
@@ -329,11 +329,11 @@
             <div class="py-4">
 
                 <div class="text-center">
-                    <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem;">Love Gift</h1>
+                    <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem;">Chúng tôi yêu quà. Donate vào đây nhé</h1>
 
                     <p class="mb-1" style="font-size: 0.9rem;">
-                        Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami,
-                        dapat melalui :
+                        Chúng tôi chân thành cảm ơn quý Ông/ Bà/ Chú/ Bác đã tham gia lễ cưới.
+                        Chúng tôi xin phép được nhận mọi sự chia sẻ và chúc phúc. Quý Ông/ Bà/ Chú/ Bác có thể gửi thông qua tài khoản ngân hàng
                     </p>
 
                     <div class="overflow-x-hidden">
@@ -364,75 +364,6 @@
             </div>
         </div>
 
-        <!-- Ucapan -->
-        <section class="m-0 p-0" id="ucapan">
-            <div class="container">
-
-                <div class="card-body border rounded-4 shadow p-3">
-                    <h1 class="font-esthetic text-center mb-3" style="font-size: 3rem;">Ucapan & Doa</h1>
-                    <div class="mb-1" id="balasan"></div>
-
-                    <div class="mb-3">
-                        <label for="form-nama" class="form-label">Nama</label>
-                        <input type="text" class="form-control shadow-sm" id="form-nama" placeholder="Isikan Nama Anda">
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="form-kehadiran" class="form-label" id="label-kehadiran">Kehadiran</label>
-                        <select class="form-select shadow-sm" id="form-kehadiran">
-                            <option value="0" selected>Konfirmasi Kehadiran</option>
-                            <option value="1">Hadir</option>
-                            <option value="2">Berhalangan</option>
-                        </select>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="form-pesan" class="form-label">Ucapan & Doa</label>
-                        <div id="alertDiv" class="alert alert-info alert-dismissible fade show" role="alert">
-                            <h5>Bestieee!!!</h5>
-                            <p class="m-0">Sekarang bisa format text seperti whatsapp lohh... cobainn sekaranggg, makaciwww bestieee</p>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="localStorage.setItem('alertClosed', 'true');document.getElementById('alertDiv').style.display = 'none';"></button>
-                        </div>
-                        <textarea class="form-control shadow-sm" id="form-pesan" rows="4" placeholder="Tulis Ucapan & Doa"></textarea>
-                    </div>
-
-                    <div class="d-flex">
-                        <button class="flex-fill btn btn-danger btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.batal()" id="batal">
-                            Batal<i class="fa-solid fa-xmark ms-1"></i>
-                        </button>
-                        <button class="flex-fill btn btn-success btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.balas()" id="balas">
-                            Balas<i class="fa-solid fa-reply ms-1"></i>
-                        </button>
-                        <button class="flex-fill btn btn-warning btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.ubah()" id="ubah">
-                            Ubah<i class="fa-solid fa-pen-to-square ms-1"></i>
-                        </button>
-                        <button class="flex-fill btn btn-primary btn-sm rounded-3 shadow m-1" onclick="comment.kirim()" id="kirim">
-                            Kirim<i class="fa-solid fa-paper-plane ms-1"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="rounded-4 mt-4 mb-2" id="daftar-ucapan"></div>
-
-                <nav class="d-flex justify-content-center mb-0">
-                    <ul class="pagination mb-0">
-                        <li class="page-item disabled" id="previous">
-                            <button class="page-link" onclick="pagination.previous(this)" aria-label="Sebelumnya">
-                                <i class="fa-solid fa-circle-left me-1"></i>Sebelumnya
-                            </button>
-                        </li>
-                        <li class="page-item disabled">
-                            <span class="page-link text-light" id="page">1</span>
-                        </li>
-                        <li class="page-item" id="next">
-                            <button class="page-link" onclick="pagination.next(this)" aria-label="Selanjutnya">
-                                Selanjutnya<i class="fa-solid fa-circle-right ms-1"></i>
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
 
         <!-- Wave Separator -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -467,7 +398,7 @@
                     <img src="./assets/images/bg.jpeg" alt="bg">
                 </div>
 
-                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">An & Phi</h1>
+                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Ngân An & Đình Phi</h1>
                 <div id="nama-tamu"></div>
 
                 <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
