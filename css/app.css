@@ -84,8 +84,8 @@ body::-webkit-scrollbar {
 }
 
 .img-fluid {
-    min-width: 145px;
-    max-width: 50%;
+    min-width: 10rem;
+    max-width: 20rem;
 }
 
 .mouse-animation>.scroll-animation {
