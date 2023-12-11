@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
 }
 
 .img-fluid {
-    min-width: 10rem;
+    width: 100%;
     max-width: 20rem;
 }
 
