@@ -83,6 +83,11 @@ body::-webkit-scrollbar {
     }
 }
 
+.img-fluid {
+    min-width: 145px;
+    max-width: 50%;
+}
+
 .mouse-animation>.scroll-animation {
     width: 0.25rem;
     height: 0.625rem;
