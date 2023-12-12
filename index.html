@@ -58,7 +58,47 @@
 </head>
 
 <body data-email="user@example.com" data-password="12345678" data-url="https://api.ulems.my.id/" style="overflow-y: hidden; background-color: #Ede2d6">
-    <!-- Navbar Bottom -->
+<section class="area" id="home" >
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="text-center pt-4">
+        <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Thiệp mời tham dự lễ cưới</h1>
+
+        <div class="py-4">
+            <div class="img-crop border border-3 border-light shadow mx-auto">
+                <img src="./assets/images/bg.jpeg" alt="bg" onclick="util.modal(this)">
+            </div>
+        </div>
+
+        <h1 class="font-esthetic my-4" style="font-size: 5rem;">Ngân An & Đình Phi</h1>
+        <p class="mb-0" style="font-size: 1.5rem;">Hà Nội, 09 Tháng 1, 2024</p>
+
+        <a class="btn btn-outline-dark btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=%C4%90%C3%A1m+c%C6%B0%E1%BB%9Bi+c%E1%BB%A7a+An+v%C3%A0+Phi&details=%C4%90%C3%A1m+c%C6%B0%E1%BB%9Bi+c%E1%BB%A7a+An+v%C3%A0+Phi+t%E1%BA%A1i+nh%C3%A0+h%C3%A0ng+ti%E1%BB%87c+c%C6%B0%E1%BB%9Bi+Th%C3%BAy+Nga%2C+%C4%90%E1%BB%99i+C%E1%BA%A5n%2C+V%C4%A9nh+Ph%C3%BAc%2C+Ba+%C4%90%C3%ACnh%2C+H%C3%A0+N%E1%BB%99i&location=https%3A%2F%2Fmaps.app.goo.gl%2FMuKRQkkY1G4HjQzw8&dates=20240109T033000Z%2F20240109T063000Z">
+            <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
+        </a>
+
+        <div class="d-flex justify-content-center align-items-center mt-4 mb-2">
+            <div class="mouse-animation">
+                <div class="scroll-animation"></div>
+            </div>
+        </div>
+
+        <p class="m-0">Cuộn xuống</p>
+    </div>
+</section >
+
+<!-- Navbar Bottom -->
     <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
@@ -96,36 +136,6 @@
 
     <!-- Main Content -->
     <main class="text-dark" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
-
-        <!-- Home -->
-        <section class="container" id="home">
-
-            <div class="text-center pt-4">
-                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Thiệp mời tham dự lễ cưới</h1>
-
-                <div class="py-4">
-                    <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/bg.jpeg" alt="bg" onclick="util.modal(this)">
-                    </div>
-                </div>
-
-                <h1 class="font-esthetic my-4" style="font-size: 5rem;">Ngân An & Đình Phi</h1>
-                <p class="mb-0" style="font-size: 1.5rem;">Hà Nội, 09 Tháng 1, 2024</p>
-
-                <a class="btn btn-outline-dark btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=%C4%90%C3%A1m+c%C6%B0%E1%BB%9Bi+c%E1%BB%A7a+An+v%C3%A0+Phi&details=%C4%90%C3%A1m+c%C6%B0%E1%BB%9Bi+c%E1%BB%A7a+An+v%C3%A0+Phi+t%E1%BA%A1i+nh%C3%A0+h%C3%A0ng+ti%E1%BB%87c+c%C6%B0%E1%BB%9Bi+Th%C3%BAy+Nga%2C+%C4%90%E1%BB%99i+C%E1%BA%A5n%2C+V%C4%A9nh+Ph%C3%BAc%2C+Ba+%C4%90%C3%ACnh%2C+H%C3%A0+N%E1%BB%99i&location=https%3A%2F%2Fmaps.app.goo.gl%2FMuKRQkkY1G4HjQzw8&dates=20240109T033000Z%2F20240109T063000Z">
-                    <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
-                </a>
-
-                <div class="d-flex justify-content-center align-items-center mt-4 mb-2">
-                    <div class="mouse-animation">
-                        <div class="scroll-animation"></div>
-                    </div>
-                </div>
-
-                <p class="m-0">Cuộn xuống</p>
-            </div>
-        </section>
-
         <!-- Wave Separator -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#B3bc7e" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -133,7 +143,6 @@
 
         <!-- aboutus -->
         <section class="dark-section" id="aboutus">
-
             <div class="text-center">
                 <h1 class="font-esthetic py-4 px-2" style="font-size: 3.0rem">Trân trọng thân mời,</h1>
 
