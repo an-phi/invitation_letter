@@ -202,19 +202,34 @@ const progress = (() => {
     });
 })();
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max)
+}
+
+const mp3List = [
+    "https://cdn.discordapp.com/attachments/1184870282524110848/1184872464321368164/sound.mp3?ex=658d8d79&is=657b1879&hm=5a0e9fd06b83ab661a1809580725ee1e4877dcc09ee208547593680c706f4429&",
+    "https://cdn.discordapp.com/attachments/1184870282524110848/1184894188693766285/Jack_Johnson_-_I_Got_You_Official_Video.mp3?ex=658da1b4&is=657b2cb4&hm=c8d52d5754db33b1c450cdf6b78c9a64d1a7d26cbf9e62dd4ce545faf87ff1bb&"
+]
+
 const audio = (() => {
     let audio = null;
 
     const singleton = () => {
         if (!audio) {
             audio = new Audio();
-            audio.src = document.getElementById('tombol-musik').getAttribute('data-url');
+            audio.src = mp3List[getRandomInt(2)];
             audio.load();
             audio.currentTime = 0;
             audio.autoplay = true;
             audio.muted = false;
-            audio.loop = true;
+            audio.loop = false;
             audio.volume = 1;
+
+            audio.addEventListener('ended', () => {
+                audio.src = mp3List[getRandomInt(2)];
+                audio.load();
+                audio.play();
+            })
         }
 
         return audio;
