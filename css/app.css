@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+
+@media only screen and (max-width: 600px) {
+    .text-common {
+        font-size: 0.9rem;
+        color: #2b4429;
+    }
+
+    .text-title {
+        font-size: 3rem;
+        color: #2b4429;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .text-common {
+        color: #2b4429;
+        font-size: 1.5rem;
+    }
+
+    .text-title {
+        font-size: 4rem;
+        color: #2b4429;
+    }
+}
+
+
 html {
     scroll-behavior: smooth !important;
 }
