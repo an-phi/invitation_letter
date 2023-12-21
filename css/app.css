@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .text-common {
         font-size: 0.9rem;
         color: #2b4429;
@@ -17,7 +17,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .text-common {
         color: #2b4429;
         font-size: 1.3rem;
@@ -348,9 +348,9 @@ body{
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
     .waves {
-        height:40px;
+        height: 60px;
         width: 100%;
-        min-height:40px;
+        min-height: 60px;
     }
 }
 
