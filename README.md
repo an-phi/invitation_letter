@@ -1,18 +1,10 @@
-# Template website undangan pernikahan sederhana
+# Our wedding An & Phi
 
-![Thumbnail](/assets/images/banner.png)
+![Thumbnail](https://cdn.jsdelivr.net/gh/an-phi/invitation_letter@0.0.3/assets/hosted/demo.jpg)
 
 ## Demo
 
-<https://dewanakl.github.io/undangan/?to=Teman+teman+semua>
-
-### Deployment API Vercel
-
-[https://dikit.my.id/DeploymentApiVercel](https://dikit.my.id/DeploymentApiVercel)
-
-### Deployment API Hosting
-
-[https://dikit.my.id/DeploymentApiHosting](https://dikit.my.id/DeploymentApiHosting)
+<https://an-phi.github.io/invitation_letter/>
 
 ### Tech stack
 
@@ -23,5 +15,3 @@
 - Confetti 2.12.0
 - Google Fonts
 - Vanilla JS
-
-### Terima kasih banyak teman-teman semua
