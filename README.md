@@ -1,6 +1,6 @@
 # Our wedding An & Phi
 
-[![Thumbnail](https://cdn.jsdelivr.net/gh/an-phi/invitation_letter@0.0.4/assets/hosted/demo.png)]
+![Thumbnail](https://cdn.jsdelivr.net/gh/an-phi/invitation_letter@0.0.4/assets/hosted/demo.png)
 
 ## Demo
 
